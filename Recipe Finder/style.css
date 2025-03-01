@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: url("recipe.jpg");
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #e67e22;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  font-size: 1.1em;
+  border: 2px solid #f1c40f;
+  border-radius: 8px;
+  background: rgba(255, 245, 230, 0.9);
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #e67e22;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+.output {
+  padding: 15px;
+  background: rgba(240, 248, 255, 0.9);
+  border: 2px dashed #2ecc71;
+  border-radius: 10px;
+  min-height: 100px;
+  font-size: 1.2em;
+  color: #34495e;
+  white-space: pre-wrap;
+}
+.highlight {
+  color: red;
+  font-weight: 500;
+}
+
+.edit {
+  color: #e74c3c;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
